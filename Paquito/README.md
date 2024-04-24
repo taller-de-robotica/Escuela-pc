@@ -3,6 +3,7 @@
 ## Práctica 1
 
 - [sketch_wheel_test](sketch_wheel_test/sketch_wheel_test.ino)
+- [send_chars](scripts/send_chars.py)
 - [WiFiArduino](WiFiArduino)
 
 ## Práctica 3

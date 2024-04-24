@@ -161,6 +161,7 @@ void init_GPIO() {
 #include "WiFiEsp.h"
 #include "WiFiEspUdp.h"
 
+#define HOTSPOT
 
 #ifndef HOTSPOT
 char ssid[] = "******"; // replace ****** with your network SSID (name)
