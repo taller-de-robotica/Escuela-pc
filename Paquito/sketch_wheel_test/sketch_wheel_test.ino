@@ -269,11 +269,11 @@ void loop() {
       case '3':rear_right_wheel(speed);break;
       case '1':rear_left_wheel(speed);break;
       // Frena llanta por llanta
-      case '4':frena_frente_izq();break;
-      case '6':frena_frente_der();break;
-      case '0':frena_tras_izq();break;
-      case '.':frena_tras_der();break;
-      case '5':stop_Stop();break;
+      case '4':front_right_wheel(0);break;
+      case '6':front_left_wheel(0);break;
+      case '0':rear_right_wheel(0);break;
+      case '.':rear_left_wheel(0);break;
+      case '5':stop_car();break;
       // Retrocede llanta por llanta
       case 'r':front_right_wheel(-speed);break;
       case 'e':front_left_wheel(-speed);break;
@@ -281,4 +281,5 @@ void loop() {
       case 'd':rear_left_wheel(-speed);break;
       default:break;
     }
+  }
 }
