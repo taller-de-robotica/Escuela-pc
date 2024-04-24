@@ -2,6 +2,7 @@
 
 ## Práctica 1
 
+- [sketch_wheel_test](sketch_wheel_test/sketch_wheel_test.ino)
 - [WiFiArduino](WiFiArduino)
 
 ## Práctica 3
