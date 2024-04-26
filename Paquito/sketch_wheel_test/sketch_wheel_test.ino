@@ -13,19 +13,19 @@
  *
  */
 
-#define speedPinR 3            // Front Wheel PWM pin connect Model-Y M_B ENA 
-#define RightMotorDirPin1 48   // Front Right Motor direction pin 1 to Model-Y M_B IN1 (K1)
-#define RightMotorDirPin2 49   // Front Right Motor direction pin 2 to Model-Y M_B IN2 (K1)
-#define LeftMotorDirPin1  46   // Front Left Motor direction pin 1 to Model-Y M_B IN3  (K3)
-#define LeftMotorDirPin2  47   // Front Left Motor direction pin 2 to Model-Y M_B IN4  (K3)
-#define speedPinL 5            // Front Wheel PWM pin connect Model-Y M_B ENB
+#define speedPinR 9            // Front Wheel PWM pin connect Model-Y M_B ENA 
+#define RightMotorDirPin1 27   // Front Right Motor direction pin 1 to Model-Y M_B IN1 (K1)
+#define RightMotorDirPin2 26   // Front Right Motor direction pin 2 to Model-Y M_B IN2 (K1)
+#define LeftMotorDirPin1  29   // Front Left Motor direction pin 1 to Model-Y M_B IN3  (K3)
+#define LeftMotorDirPin2  28   // Front Left Motor direction pin 2 to Model-Y M_B IN4  (K3)
+#define speedPinL 10            // Front Wheel PWM pin connect Model-Y M_B ENB
 
-#define speedPinRB 6           // Rear Wheel PWM pin connect Left Model-Y M_A ENA 
-#define RightMotorDirPin1B 52  // Rear Right Motor direction pin 1 to Model-Y M_A IN1 (K1)
-#define RightMotorDirPin2B 53  // Rear Right Motor direction pin 2 to Model-Y M_A IN2 (K1) 
-#define LeftMotorDirPin1B  50  // Rear Left Motor direction pin 1 to Model-Y M_A IN3  (K3)
-#define LeftMotorDirPin2B  51  // Rear Left Motor direction pin 2 to Model-Y M_A IN4  (K3)
-#define speedPinLB 7           // Rear Wheel PWM pin connect Model-Y M_A ENB
+#define speedPinRB 11           // Rear Wheel PWM pin connect Left Model-Y M_A ENA 
+#define RightMotorDirPin1B 23  // Rear Right Motor direction pin 1 to Model-Y M_A IN1 (K1)
+#define RightMotorDirPin2B 22  // Rear Right Motor direction pin 2 to Model-Y M_A IN2 (K1) 
+#define LeftMotorDirPin1B  25  // Rear Left Motor direction pin 1 to Model-Y M_A IN3  (K3)
+#define LeftMotorDirPin2B  24  // Rear Left Motor direction pin 2 to Model-Y M_A IN4  (K3)
+#define speedPinLB 12           // Rear Wheel PWM pin connect Model-Y M_A ENB
 
 ///
 /// Control de motores
@@ -168,7 +168,7 @@ char ssid[] = "******"; // replace ****** with your network SSID (name)
 char pass[] = "******"; // replace ****** with your network password
 #else
 /// Si el robot será el hotspot
-char ssid[] = "osoyoo_robot"; 
+char ssid[] = "osoyoo_robot_1"; 
 #endif
 
 
