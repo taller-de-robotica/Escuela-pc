@@ -18,10 +18,10 @@ import numpy as np
 
 FRAME_STEP = 100
 DUST_FRAME_STEP = 500
-VIDEO_URL = "http://10.10.120.5:8000/stream.mjpg"
+VIDEO_URL = "http://10.210.0.169:8000/stream.mjpg"
 UNET_MODEL_PATH = "Weights/sm_unet4_03.hdf5"
-USE_YOLO = False
-USE_UNET = False
+USE_YOLO = True
+USE_UNET = True
 
 
 if __name__ == '__main__':
@@ -72,6 +72,10 @@ if __name__ == '__main__':
                 if USE_UNET:
                     num_dust_frame += 1
                     if num_dust_frame == DUST_FRAME_STEP:
-                        dust_img = unet.unet_prediction(image)
-                        unet.show_images(image, dust_img, True)
+                        image_bgr = image
+                        image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
+                        dust_img = unet.unet_prediction(image_rgb)
+                        unet.show_images(image_rgb, dust_img, True)
+                        #dust_img = unet.unet_prediction(image)
+                        #unet.show_images(image, dust_img, True)
                         num_dust_frame = 1
