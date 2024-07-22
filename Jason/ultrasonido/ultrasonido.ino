@@ -1,5 +1,12 @@
-int TRIGGER = 2;
-int ECHO = 3;
+/**
+Práctica 2
+*/
+
+// Pines
+const int TRIGGER = 2;
+const int ECHO = 3;
+
+// Estado
 int tiempo = 0;
 int distancia = 0;
 
