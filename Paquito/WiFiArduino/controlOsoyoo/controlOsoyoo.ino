@@ -31,7 +31,7 @@
 #define LeftMotorDirPin2B  8   // Rear Left Motor direction pin 2 to Model-Y M_A IN4 (K3)
 #define speedPinLB 12          // Rear Wheel PWM pin connect Model-Y M_A ENB
 
-//#define HOTSPOT
+#define HOTSPOT
 
 ///
 /// Control de motores
@@ -365,7 +365,7 @@ void loop() {
     char c = packetBuffer[0];
     Serial.print(" char: ");
     Serial.println(c);
-    switch (c)    //serial control instructions
+    /*switch (c)    //serial control instructions
     {  
       // Avanza llanta por llanta
       case '1':FL_fwd(SPEED);break;
@@ -380,7 +380,7 @@ void loop() {
       // Mueve el carrito
       // ...
       default:break;
-    }
+    }*/
   }
 }
 
