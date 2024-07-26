@@ -18,7 +18,7 @@ import numpy as np
 
 FRAME_STEP = 100
 DUST_FRAME_STEP = 500
-VIDEO_URL = "http://10.210.0.169:8000/stream.mjpg"
+VIDEO_URL = "http://10.42.0.52:8000/stream.mjpg"
 UNET_MODEL_PATH = "Weights/sm_unet4_03.hdf5"
 USE_YOLO = True
 USE_UNET = True
