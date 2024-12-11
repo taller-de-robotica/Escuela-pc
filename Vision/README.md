@@ -1,8 +1,21 @@
+## Ambiente virtual
+
+Crear un ambiente virtual:
+
+```
+sudo apt install python3-venv
+cd
+python3 -m venv panelvenv
+```
+
 ## Dependencias
 
-Abrir una terminal en esta carpeta y ejecutar:
+Abrir una terminal en esta carpeta, activar el ambiente y ejecutar:
 
-`pip install -r requirements.txt`
+```
+source ~/panelvenv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Cv2Detector.py
 
