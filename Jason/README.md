@@ -2,7 +2,7 @@
 
 ## Práctica 1
 
-- [Motores](Motores)
+- [Motores](motores)
 
 ## Práctica 2
  
