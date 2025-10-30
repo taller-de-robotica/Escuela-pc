@@ -31,7 +31,7 @@
 #define LeftMotorDirPin2B  8   // Rear Left Motor direction pin 2 to Model-Y M_A IN4 (K3)
 #define speedPinLB 12          // Rear Wheel PWM pin connect Model-Y M_A ENB
 
-//#define HOTSPOT
+#define HOTSPOT
 
 ///
 /// Control de motores

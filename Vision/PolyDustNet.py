@@ -13,6 +13,8 @@ import cv2
 
 from termcolor import cprint
 
+import os
+os.environ["SM_FRAMEWORK"] = "tf.keras"
 import segmentation_models as sm
 from keras.models import load_model
 
